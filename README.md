@@ -9,6 +9,7 @@ pip3 install pytesseract
 pip3 install opencv-python
 pip3 install ocrmypdf
 pip3 install aspose-ocr-python-net 
+pip3 install handprint
 ```
 
 # External software :
@@ -23,4 +24,11 @@ sudo apt-get install libssl-dev
 
 ```console
 pip3 install pywhatkit
+```
+
+
+# Commandes
+
+```console
+kraken -i page_cahier.jpg pahe_cahier.txt binarize segment ocr
 ```

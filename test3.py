@@ -4,7 +4,9 @@ import easyocr
 
 reader = easyocr.Reader(['en'],gpu = False) # load once only in memory.
 
-image_file_name='pb_ss_fond.png' 
+# image_file_name='pb_ss_fond.png' 
+image_file_name = 'page_cahier.jpg'
+
 image = cv2.imread(image_file_name)
 
 # sharp the edges or image.
