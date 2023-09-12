@@ -10,6 +10,8 @@ pip3 install opencv-python
 pip3 install ocrmypdf
 pip3 install aspose-ocr-python-net 
 pip3 install handprint
+
+pip3 install transfromers
 ```
 
 # External software :
@@ -32,3 +34,8 @@ pip3 install pywhatkit
 ```console
 kraken -i page_cahier.jpg pahe_cahier.txt binarize segment ocr
 ```
+
+
+# Liens
+
+TR_OCR (test5.py) : https://huggingface.co/docs/transformers/model_doc/trocr 

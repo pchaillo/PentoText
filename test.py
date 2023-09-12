@@ -4,7 +4,8 @@ from pytesseract import Output
 import cv2
  
 # source = 'pb_ss_fond.png'
-source = 'page_cahier.jpg'
+# source = 'page_cahier.jpg'
+source = 'signori_law_extract.png'
 
 img = cv2.imread(source)
 text=pytesseract.image_to_string(img)
